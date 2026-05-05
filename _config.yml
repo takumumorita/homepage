@@ -1,0 +1,5 @@
+exclude:
+  - Score_元ネタ
+  - assets/scores
+  - __pycache__
+  - "*.pyc"

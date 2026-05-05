@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="920" viewBox="0 0 1400 920">
+  <rect width="1400" height="920" fill="#fffdf8"/>
+  <rect x="70" y="62" width="1260" height="796" fill="none" stroke="#d8d1c2" stroke-width="3"/>
+  <g stroke="#aaa393" stroke-width="2">
+    <path d="M170 190H1230"/><path d="M170 217H1230"/><path d="M170 244H1230"/><path d="M170 271H1230"/><path d="M170 298H1230"/>
+    <path d="M170 420H1230"/><path d="M170 447H1230"/><path d="M170 474H1230"/><path d="M170 501H1230"/><path d="M170 528H1230"/>
+    <path d="M170 650H1230"/><path d="M170 677H1230"/><path d="M170 704H1230"/><path d="M170 731H1230"/><path d="M170 758H1230"/>
+  </g>
+  <g fill="#242424" opacity=".82">
+    <circle cx="310" cy="244" r="15"/><circle cx="455" cy="217" r="15"/><circle cx="610" cy="271" r="15"/><circle cx="770" cy="190" r="15"/>
+    <circle cx="390" cy="474" r="15"/><circle cx="540" cy="447" r="15"/><circle cx="705" cy="501" r="15"/><circle cx="880" cy="420" r="15"/>
+    <circle cx="330" cy="704" r="15"/><circle cx="515" cy="677" r="15"/><circle cx="690" cy="731" r="15"/><circle cx="850" cy="650" r="15"/>
+  </g>
+  <text x="700" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#5f5a50">Score preview placeholder</text>
+</svg>
