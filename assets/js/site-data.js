@@ -1,5 +1,5 @@
 window.SITE_DATA = {
-  "generatedAt": "2026-05-06T03:53:47Z",
+  "generatedAt": "2026-05-14T12:42:47Z",
   "siteUrl": "https://takumumorita.com",
   "contactFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSch5jbzGyfmg3-7zW7FYQjsg6Pw0ogjhYIk1Lopdim21EviFA/viewform?usp=sharing",
   "siteText": {
@@ -251,7 +251,7 @@ window.SITE_DATA = {
       "hasDetail": true,
       "detailUrl": "works/with-light-and-clouds.html",
       "inList": true,
-      "inShop": true,
+      "inShop": false,
       "rawCategory": "wind",
       "archiveCategory": "wind",
       "archiveCategoryLabel": "Wind Ensemble",
@@ -336,9 +336,9 @@ window.SITE_DATA = {
           "en": "Score preview of With Light and Clouds by Takumu Morita",
           "ja": "森田拓夢《光と雲で》のスコア試し読み"
         },
-        "priceScore": "¥5,500",
-        "priceSet": "レンタル・個別相談",
-        "checkboxValue": "光と雲で / With Light and Clouds (吹奏楽 / Wind Ensemble)"
+        "priceScore": "",
+        "priceSet": "",
+        "checkboxValue": ""
       },
       "image": {
         "src": "assets/images/Created_by_morita/original_before_resize/ethereal_geometry_in_floating_clouds.png",
