@@ -1,5 +1,5 @@
 window.SITE_DATA = {
-  "generatedAt": "2026-05-14T12:42:47Z",
+  "generatedAt": "2026-09-16T16:09:21.586438",
   "siteUrl": "https://takumumorita.com",
   "contactFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSch5jbzGyfmg3-7zW7FYQjsg6Pw0ogjhYIk1Lopdim21EviFA/viewform?usp=sharing",
   "siteText": {
@@ -72,6 +72,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Oboe, Viola, Piano",
         "ja": "Oboe, Viola, Piano"
@@ -85,14 +86,14 @@ window.SITE_DATA = {
         "ja": "高橋鐘汰・前山杏"
       },
       "premiere": {
-        "date": "2026/7/29 初演予定",
+        "date": "2026/7/29",
         "ensemble": {
-          "en": "—",
-          "ja": "—"
+          "en": "Manami Fujimoto, Ann Maeyama, Hitomi Kutsunai",
+          "ja": "藤本茉奈美、前山杏、久津内瞳"
         },
         "venue": {
-          "en": "—",
-          "ja": "—"
+          "en": "Aoyama Music Memorial Hall, Barocksaal, Kyoto",
+          "ja": "青山音楽記念館バロックザール（京都）"
         }
       },
       "award": {
@@ -100,28 +101,43 @@ window.SITE_DATA = {
         "ja": ""
       },
       "year": "2025",
-      "listDate": "2026/7/29 初演予定",
-      "unpremiered": true,
+      "listDate": "2026/7/29",
+      "unpremiered": false,
       "note": {
-        "en": "For me, architecture and constellations are contrasting presences: artificial and natural, structural and intuitive. In this work, I sought to create music in which these opposing elements coexist while resisting one another. The piece consists of twelve sections, in which images of Villa Savoye and constellations are connected sometimes abruptly, sometimes gradually.",
-        "ja": "建築と星座は、人工と自然、構造と直感といった点で対照的な存在である。<br>本作では、それらが反発しながらも共存する音楽を目指した。<br>作品は12の部分から成り、サヴォア邸と星座をめぐるイメージが、時に唐突に、時にゆるやかにつなぎ合わされていく。"
+        "en": "I have been fascinated by Le Corbusier's Villa Savoye since childhood: the transparency of its long horizontal windows, and the floating impression created by its pilotis. An image of the house rising into the sky eventually came to overlap with constellations.<br><br>The work brings together these contrasting worlds—artificial and natural, practical and divinatory, structural and intuitive—so that they coexist while resisting one another. Its twelve sections suggest different aspects of the building and of connecting stars, joined sometimes abruptly and sometimes gradually.",
+        "ja": "ル・コルビュジエのサヴォア邸に、幼い頃から強い印象を抱いてきた。横長の窓がもたらす透明感と、ピロティによる浮遊感。その建物が空へ浮かび上がるイメージに、ある時、星座が重なった。<br><br>人工と自然、実用と占術、構造と直感。対照的な建築と星座が、反発しながらも同居する音楽を目指した。全12の部分では、建築の様々な側面や星々をつなぐイメージが、時に唐突に、時にゆるやかにつなぎ合わされていく。"
       },
       "shortNote": {
         "en": "",
         "ja": ""
       },
       "audio": {
-        "type": "none",
-        "url": "",
-        "embedUrl": ""
+        "type": "soundcloud",
+        "url": "https://soundcloud.com/ao81ctjk62b8/for-oboe-viola-and-piano-2024",
+        "embedUrl": "https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/ao81ctjk62b8/for-oboe-viola-and-piano-2024&color=%232b574f&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false"
       },
       "video": {
         "url": "",
         "embedUrl": ""
       },
       "score": {
-        "slug": "",
-        "pages": [],
+        "slug": "kenchiku-seiza",
+        "pages": [
+          "assets/images/score-previews/kenchiku-seiza/page_01.jpg",
+          "assets/images/score-previews/kenchiku-seiza/page_02.jpg",
+          "assets/images/score-previews/kenchiku-seiza/page_03.jpg",
+          "assets/images/score-previews/kenchiku-seiza/page_04.jpg",
+          "assets/images/score-previews/kenchiku-seiza/page_05.jpg",
+          "assets/images/score-previews/kenchiku-seiza/page_06.jpg",
+          "assets/images/score-previews/kenchiku-seiza/page_07.jpg",
+          "assets/images/score-previews/kenchiku-seiza/page_08.jpg",
+          "assets/images/score-previews/kenchiku-seiza/page_09.jpg",
+          "assets/images/score-previews/kenchiku-seiza/page_10.jpg",
+          "assets/images/score-previews/kenchiku-seiza/page_11.jpg",
+          "assets/images/score-previews/kenchiku-seiza/page_12.jpg",
+          "assets/images/score-previews/kenchiku-seiza/page_13.jpg",
+          "assets/images/score-previews/kenchiku-seiza/page_14.jpg"
+        ],
         "alt": {
           "en": "Score preview of Architecture and Constellations by Takumu Morita",
           "ja": "森田拓夢《建築と星座》のスコア試し読み"
@@ -141,7 +157,13 @@ window.SITE_DATA = {
         7,
         29
       ],
-      "ogImage": "assets/images/Created_by_morita/original_before_resize/celestial_architecture_and_blueprint_harmony.png"
+      "ogImage": "assets/images/Created_by_morita/original_before_resize/celestial_architecture_and_blueprint_harmony.png",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "parallax",
@@ -168,6 +190,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Clarinet, Violoncello, Piano",
         "ja": "Clarinet, Violoncello, Piano"
@@ -243,7 +266,13 @@ window.SITE_DATA = {
         12,
         28
       ],
-      "ogImage": "assets/images/Created_by_morita/original_before_resize/abstract_architectural_blueprint_in_soft_hues.png"
+      "ogImage": "assets/images/Created_by_morita/original_before_resize/abstract_architectural_blueprint_in_soft_hues.png",
+      "homeFeatured": true,
+      "homeOrder": 1,
+      "homeNote": {
+        "ja": "一つのモチーフを様々な角度から眺め、その違いを楽しむことを念頭に作曲した。",
+        "en": "Commissioned by the chamber trio \"Toshi-no-Owari-ni Sanjuso\" (Clarinet, Violoncello, Piano). The title \"Parallax\" refers to the apparent shift of an object's position when viewed from different vantage points — a single motif observed from many angles. The commissioner asked for a piece related to Beethoven's Trio in E♭ Op.38; the central motif borrows the opening three notes (B♭–A–B♭) of its first movement's first theme. Five fragments derived from this single motif unfold in sequence, the same color-field shifting in texture and temperature."
+      }
     },
     {
       "id": "hikari-to-kumo",
@@ -251,7 +280,7 @@ window.SITE_DATA = {
       "hasDetail": true,
       "detailUrl": "works/with-light-and-clouds.html",
       "inList": true,
-      "inShop": false,
+      "inShop": true,
       "rawCategory": "wind",
       "archiveCategory": "wind",
       "archiveCategoryLabel": "Wind Ensemble",
@@ -270,6 +299,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Wind Ensemble",
         "ja": "Wind Ensemble"
@@ -336,9 +366,9 @@ window.SITE_DATA = {
           "en": "Score preview of With Light and Clouds by Takumu Morita",
           "ja": "森田拓夢《光と雲で》のスコア試し読み"
         },
-        "priceScore": "",
-        "priceSet": "",
-        "checkboxValue": ""
+        "priceScore": "¥5,500",
+        "priceSet": "レンタル・個別相談",
+        "checkboxValue": "光と雲で / With Light and Clouds (吹奏楽 / Wind Ensemble)"
       },
       "image": {
         "src": "assets/images/Created_by_morita/original_before_resize/ethereal_geometry_in_floating_clouds.png",
@@ -351,7 +381,13 @@ window.SITE_DATA = {
         11,
         6
       ],
-      "ogImage": "assets/images/Created_by_morita/original_before_resize/ethereal_geometry_in_floating_clouds.png"
+      "ogImage": "assets/images/Created_by_morita/original_before_resize/ethereal_geometry_in_floating_clouds.png",
+      "homeFeatured": true,
+      "homeOrder": 2,
+      "homeNote": {
+        "ja": "第一部で提示される四つの素材（ヘテロフォニー・トリル・パルス・コラール）から、変化し続ける雲のように音楽が展開していく。",
+        "en": "A wind ensemble work shaped by the shifting states of light and clouds."
+      }
     },
     {
       "id": "hoshi-ni-oyogu",
@@ -378,6 +414,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "2 Tenor Saxophones, Piano",
         "ja": "2 Tenor Saxophones, Piano"
@@ -410,7 +447,7 @@ window.SITE_DATA = {
       "unpremiered": false,
       "note": {
         "en": "Commissioned by saxophonist Sōta Kawaguchi. Inspired by his master-disciple relationship with co-premiere artist Kazuyuki Hayashida the work pictures two fish swimming through a dark sea toward the stars.",
-        "ja": "サクソフォン奏者・川口蒼太からの作曲依頼により作曲。<br>初演者である川口さんと林田和之さんの師弟関係から着想を得て、夜の暗い海を泳ぐ二匹の魚が星を目指して泳ぎ続けるイメージをそのまま音楽にした。"
+        "ja": "サクソフォン奏者・川口蒼太さんからの作曲依頼により作曲。<br>初演者である川口さんと林田和之さんの師弟関係から着想を得て、夜の暗い海を泳ぐ二匹の魚が星を目指して泳ぎ続けるイメージをそのまま音楽にした。"
       },
       "shortNote": {
         "en": "",
@@ -460,7 +497,13 @@ window.SITE_DATA = {
         9,
         19
       ],
-      "ogImage": "assets/images/Created_by_morita/original_before_resize/futuristic_celestial_diagram_in_gold_and_blue.png"
+      "ogImage": "assets/images/Created_by_morita/original_before_resize/futuristic_celestial_diagram_in_gold_and_blue.png",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "between-the-winds",
@@ -487,6 +530,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Flute, Piano",
         "ja": "Flute, Piano"
@@ -519,7 +563,7 @@ window.SITE_DATA = {
       "unpremiered": false,
       "note": {
         "en": "Commissioned by flutist Kunihiro Kamata. Inspired by the word wind — recurring in conversations with him — and all the impressions that word carried for the composer.",
-        "ja": "フルート奏者の鎌田邦裕からの作曲依頼により作曲。<br>鎌田さんとの会話に何度も登場した言葉「風」から着想を得て、気まぐれさやスピード感、過ぎ去った後の感触など、整理されていない自然の「風」が生命を帯びる過程と、その逆の過程の行き来をもって、掴み所がないが風のような疾走感を持つ音楽を試みた。"
+        "ja": "フルート奏者の鎌田邦裕さんからの作曲依頼により作曲。<br>鎌田さんとの会話に何度も登場した言葉「風」から着想を得て、気まぐれさやスピード感、過ぎ去った後の感触など、整理されていない自然の「風」が生命を帯びる過程と、その逆の過程の行き来をもって、掴み所がないが風のような疾走感を持つ音楽を試みた。"
       },
       "shortNote": {
         "en": "",
@@ -569,7 +613,13 @@ window.SITE_DATA = {
         4,
         4
       ],
-      "ogImage": "assets/images/Created_by_morita/original_before_resize/ethereal_flow_of_soft_ribbons.png"
+      "ogImage": "assets/images/Created_by_morita/original_before_resize/ethereal_flow_of_soft_ribbons.png",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "kasasane",
@@ -596,6 +646,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "12 Trombones",
         "ja": "12 Trombones"
@@ -674,7 +725,13 @@ window.SITE_DATA = {
         1,
         10
       ],
-      "ogImage": "assets/images/Created_by_morita/original_before_resize/elegant_abstract_cathedral_of_layered_geometry.png"
+      "ogImage": "assets/images/Created_by_morita/original_before_resize/elegant_abstract_cathedral_of_layered_geometry.png",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "zapping-shower",
@@ -701,6 +758,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Clarinet, Electronics",
         "ja": "Clarinet, Electronics"
@@ -776,7 +834,13 @@ window.SITE_DATA = {
         2,
         3
       ],
-      "ogImage": "assets/images/Created_by_morita/original_before_resize/futuristic_explosion_of_fragmented_geometry.png"
+      "ogImage": "assets/images/Created_by_morita/original_before_resize/futuristic_explosion_of_fragmented_geometry.png",
+      "homeFeatured": true,
+      "homeOrder": 3,
+      "homeNote": {
+        "ja": "スイス出身の映像作家ピピロッティ・リストの作品と、テレビ視聴中にチャンネルを切り替える行為「ザッピング」から着想を得て作曲。",
+        "en": "A work for clarinet and electronics dealing with rapid shifts and fragments."
+      }
     },
     {
       "id": "cutting",
@@ -803,6 +867,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Flute, Clarinet, Horn, 2 Percussion, Piano, Violin, Viola, Violoncello, Contrabass",
         "ja": "Flute, Clarinet, Horn, 2 Percussion, Piano, Violin, Viola, Violoncello, Contrabass"
@@ -883,7 +948,13 @@ window.SITE_DATA = {
         1,
         19
       ],
-      "ogImage": "assets/images/Created_by_morita/original_before_resize/explosive_geometric_abstraction_with_metallic_acce.png"
+      "ogImage": "assets/images/Created_by_morita/original_before_resize/explosive_geometric_abstraction_with_metallic_acce.png",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "manekko",
@@ -910,6 +981,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Orchestra",
         "ja": "Orchestra"
@@ -992,7 +1064,13 @@ window.SITE_DATA = {
         11,
         17
       ],
-      "ogImage": "assets/images/Created_by_morita/original_before_resize/symmetrical_geometry_and_cosmic_patterns.png"
+      "ogImage": "assets/images/Created_by_morita/original_before_resize/symmetrical_geometry_and_cosmic_patterns.png",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "a-childs-garden",
@@ -1019,6 +1097,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Alto Saxophone, Percussion",
         "ja": "Alto Saxophone, Percussion"
@@ -1088,7 +1167,13 @@ window.SITE_DATA = {
         6,
         18
       ],
-      "ogImage": "assets/images/og/a-child-s-garden.svg"
+      "ogImage": "assets/images/portrait.jpg",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "abstraction",
@@ -1115,6 +1200,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Percussion solo",
         "ja": "Percussion solo"
@@ -1184,7 +1270,13 @@ window.SITE_DATA = {
         5,
         27
       ],
-      "ogImage": "assets/images/og/abstraction.svg"
+      "ogImage": "assets/images/portrait.jpg",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "utopia",
@@ -1211,6 +1303,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Saxophone Quartet",
         "ja": "Saxophone Quartet"
@@ -1290,7 +1383,13 @@ window.SITE_DATA = {
         5,
         6
       ],
-      "ogImage": "assets/images/Created_by_morita/original_before_resize/Utopia_Graphic.png"
+      "ogImage": "assets/images/Created_by_morita/original_before_resize/Utopia_Graphic.png",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "suisho",
@@ -1317,6 +1416,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Musical (orchestra accompaniment / flute and piano accompaniment versions)",
         "ja": "Musical（オーケストラ伴奏版 / フルート・ピアノ伴奏版）"
@@ -1386,7 +1486,13 @@ window.SITE_DATA = {
         12,
         18
       ],
-      "ogImage": "assets/images/Created_by_morita/original_before_resize/Suisho-no-kuni-ni-owakarewo.png"
+      "ogImage": "assets/images/Created_by_morita/original_before_resize/Suisho-no-kuni-ni-owakarewo.png",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "suisho-chamber",
@@ -1413,6 +1519,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Musical (Flute & Piano accompaniment ver.)",
         "ja": "Musical（Flute, Piano伴奏版)"
@@ -1482,7 +1589,13 @@ window.SITE_DATA = {
         12,
         18
       ],
-      "ogImage": "assets/images/og/musical-flute-piano-accompaniment-ver.svg"
+      "ogImage": "assets/images/portrait.jpg",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "defocusing-ii",
@@ -1509,6 +1622,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "VJ, Clarinet, Violin, Piano, 2 Percussion",
         "ja": "VJ, Clarinet, Violin, Piano, 2 Percussion"
@@ -1591,7 +1705,13 @@ window.SITE_DATA = {
         8,
         5
       ],
-      "ogImage": "assets/images/Created_by_morita/original_before_resize/ethereal_descent_of_fragmented_structures.png"
+      "ogImage": "assets/images/Created_by_morita/original_before_resize/ethereal_descent_of_fragmented_structures.png",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "correspondances",
@@ -1618,6 +1738,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Soprano, Flute, Clarinet, Trumpet, 2 Percussion, Piano, Violin, Violoncello",
         "ja": "Soprano, Flute, Clarinet, Trumpet, 2 Percussion, Piano, Violin, Violoncello"
@@ -1697,7 +1818,13 @@ window.SITE_DATA = {
         2,
         3
       ],
-      "ogImage": "assets/images/Created_by_morita/original_before_resize/Correspondances_Graphic.png"
+      "ogImage": "assets/images/Created_by_morita/original_before_resize/Correspondances_Graphic.png",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "mawatte",
@@ -1724,6 +1851,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Tuba, Live Electronics",
         "ja": "Tuba, Live Electronics"
@@ -1793,7 +1921,13 @@ window.SITE_DATA = {
         10,
         1
       ],
-      "ogImage": "assets/images/og/tuba-live-electronics.svg"
+      "ogImage": "assets/images/portrait.jpg",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "defocusing-d",
@@ -1820,6 +1954,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "2 Flutes, 2 Oboes, 2 Clarinets",
         "ja": "2 Flutes, 2 Oboes, 2 Clarinets"
@@ -1889,7 +2024,13 @@ window.SITE_DATA = {
         2,
         5
       ],
-      "ogImage": "assets/images/og/defocusing-in-d.svg"
+      "ogImage": "assets/images/portrait.jpg",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "suisho-orch",
@@ -1916,6 +2057,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Musical (Orchestra accompaniment ver.)",
         "ja": "Musical（Orchestra伴奏版）"
@@ -1985,7 +2127,13 @@ window.SITE_DATA = {
         11,
         2
       ],
-      "ogImage": "assets/images/og/musical-orchestra-accompaniment-ver.svg"
+      "ogImage": "assets/images/portrait.jpg",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "trip-slipping",
@@ -2012,6 +2160,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Flute, Baritone Saxophone, Bassoon, Horn, Percussion, Celesta, Violin, Viola, Violoncello, Contrabass",
         "ja": "Flute, Baritone Saxophone, Bassoon, Horn, Percussion, Celesta, Violin, Viola, Violoncello, Contrabass"
@@ -2081,7 +2230,13 @@ window.SITE_DATA = {
         8,
         1
       ],
-      "ogImage": "assets/images/og/trip-slipping.svg"
+      "ogImage": "assets/images/portrait.jpg",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "finished-knowing",
@@ -2108,6 +2263,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Soprano, Electronics",
         "ja": "Soprano, Electronics"
@@ -2177,7 +2333,13 @@ window.SITE_DATA = {
         0,
         0
       ],
-      "ogImage": "assets/images/og/and-finished-knowing-then.svg"
+      "ogImage": "assets/images/portrait.jpg",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     },
     {
       "id": "kan",
@@ -2204,6 +2366,7 @@ window.SITE_DATA = {
         "en": "",
         "ja": ""
       },
+      "instrumentationLanguage": "en",
       "instrumentation": {
         "en": "Mezzo-soprano, Electronics, Video, Flute, Percussion, Harp, Violin, Viola, Violoncello",
         "ja": "Mezzo-soprano, Electronics, Video, Flute, Percussion, Harp, Violin, Viola, Violoncello"
@@ -2273,30 +2436,46 @@ window.SITE_DATA = {
         0,
         0
       ],
-      "ogImage": "assets/images/og/based-on-the-text.svg"
+      "ogImage": "assets/images/portrait.jpg",
+      "homeFeatured": false,
+      "homeOrder": 999,
+      "homeNote": {
+        "ja": "",
+        "en": ""
+      }
     }
   ],
   "news": [
     {
       "date": "2026.7.29",
-      "tag": "upcoming",
+      "id": "news-0",
+      "publishedOn": "2026-09-17",
+      "eventStart": "2026-07-29",
+      "eventEnd": "",
+      "concertId": "",
+      "tag": "premiere",
       "badge": {
-        "ja": "今後の予定",
-        "en": "Upcoming"
+        "ja": "初演",
+        "en": "Premiere"
       },
       "title": {
-        "en": "Premiere of Architecture and Constellations Announced",
-        "ja": "《建築と星座》初演決定"
+        "en": "Architecture and Constellations — Premiere in Kyoto",
+        "ja": "《建築と星座》京都にて初演"
       },
       "body": {
-        "en": "My new work Architecture and Constellations for oboe, viola, and piano will receive its world premiere at the following concert.<br><br>Architecture and Constellations<br>An Evening of Oboe, Viola, and Piano with Trio Astrale<br><br>Date & Time<br>Wednesday, July 29, 2026<br>Concert begins at 7:00 p.m.<br>Doors open at 6:30 p.m.<br>Aoyama Music Memorial Hall, Barocksaal<br><br>Admission<br>General: ¥3,000<br>Students: ¥2,000<br><br>Performers<br>Manami Fujimoto, oboe<br>Ann Maeyama, viola<br>Hitomi Kutsunai, piano<br><br>Program<br>Takumu Morita: Architecture and Constellations(Commissioned work / World premiere)<br>W. A. Mozart: Trio “Kegelstatt,” K. 498<br>Robert Kahn: Serenade in F minor, Op. 73<br>Robert Schumann: Märchenerzählungen, Op. 132<br>Charles Martin Loeffler: Two Rhapsodies<br><br>Reservations<br>Please contact me directly at takumumusic@gmail.com.",
-        "ja": "オーボエ、ヴィオラ、ピアノのための拙作《建築と星座》が下記の演奏会で初演予定です。<br><br>◯建築と星座<br>〜トリオ・アストラーレによる<br>オーボエ、ヴィオラ、ピアノの夕べ〜<br><br>◯日時<br>2026年7月29日(水)<br>開演19:00（開場18:30）<br>@青山音楽記念館　バロックザール<br><br>◯入場料<br>一般3,000円、学生2,000円<br><br>◯出演者<br>藤本茉奈美（オーボエ）<br>前山杏（ヴィオラ）<br>久津内瞳（ピアノ）<br><br>◯曲目<br>・森田拓夢 : 建築と星座（委嘱新作・世界初演）<br>・W.A. モーツァルト : 三重奏曲「ケーゲルシュタット」K.498<br>・R.カーン : セレナーデ へ短鯛Op.73<br>・R.シューマン : おとぎ話 Op.132<br>・C.M. レフラー : 2つの狂詩曲<br><br>◯お申し込み<br>takumumusic@gmail.com宛にご連絡ください。"
+        "en": "<em>Architecture and Constellations</em> for oboe, viola, and piano received its world premiere at Aoyama Music Memorial Hall, Barocksaal, Kyoto, performed by Trio Astrale: Manami Fujimoto (oboe), Ann Maeyama (viola), and Hitomi Kutsunai (piano).<br>The recording and score excerpts are available on the <a href=\"works/architecture-and-constellations.html\">work page</a>.",
+        "ja": "オーボエ、ヴィオラ、ピアノのための《建築と星座》が、トリオ・アストラーレの藤本茉奈美さん（Ob）、前山杏さん（Va）、久津内瞳さん（Pf）によって、青山音楽記念館バロックザールで初演されました。<br><a href=\"works/architecture-and-constellations.html\">作品ページ</a>に音源と楽譜の試し読みを掲載しました。"
       },
-      "linkUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdE33Pc2BfxVzPHbEonI9eh4vfAQUHxwe9BzPPmXmJD9T8iEQ/viewform?usp=header",
+      "linkUrl": "https://barocksaal.com/schedule/11206/",
       "external": true
     },
     {
       "date": "2027.3.20–22",
+      "id": "news-1",
+      "publishedOn": "",
+      "eventStart": "2027-03-20",
+      "eventEnd": "2027-03-22",
+      "concertId": "concert-2027-moji-kotoba-oto",
       "tag": "upcoming",
       "badge": {
         "ja": "今後の予定",
@@ -2315,6 +2494,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2028.3 TBA",
+      "id": "news-2",
+      "publishedOn": "",
+      "eventStart": "2028-03",
+      "eventEnd": "",
+      "concertId": "concert-2028-joint-project",
       "tag": "upcoming",
       "badge": {
         "ja": "今後の予定",
@@ -2333,6 +2517,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2025.12.28",
+      "id": "news-3",
+      "publishedOn": "",
+      "eventStart": "",
+      "eventEnd": "",
+      "concertId": "",
       "tag": "premiere",
       "badge": {
         "ja": "初演",
@@ -2351,6 +2540,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2025.11.17",
+      "id": "news-4",
+      "publishedOn": "",
+      "eventStart": "",
+      "eventEnd": "",
+      "concertId": "",
       "tag": "adopted",
       "badge": {
         "ja": "採択",
@@ -2369,6 +2563,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2025.11.6",
+      "id": "news-5",
+      "publishedOn": "",
+      "eventStart": "",
+      "eventEnd": "",
+      "concertId": "",
       "tag": "premiere",
       "badge": {
         "ja": "初演",
@@ -2387,6 +2586,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2025.7.20",
+      "id": "news-6",
+      "publishedOn": "",
+      "eventStart": "",
+      "eventEnd": "",
+      "concertId": "",
       "tag": "rerun",
       "badge": {
         "ja": "再演",
@@ -2405,6 +2609,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2024.9.19",
+      "id": "news-7",
+      "publishedOn": "",
+      "eventStart": "",
+      "eventEnd": "",
+      "concertId": "",
       "tag": "premiere",
       "badge": {
         "ja": "初演",
@@ -2423,6 +2632,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2024.4.4 / 2024.4.6",
+      "id": "news-8",
+      "publishedOn": "",
+      "eventStart": "",
+      "eventEnd": "",
+      "concertId": "",
       "tag": "premiere",
       "badge": {
         "ja": "初演",
@@ -2441,6 +2655,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2024.1.10 / 2024.1.17",
+      "id": "news-9",
+      "publishedOn": "",
+      "eventStart": "",
+      "eventEnd": "",
+      "concertId": "",
       "tag": "premiere",
       "badge": {
         "ja": "初演",
@@ -2459,6 +2678,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2023.3.30",
+      "id": "news-10",
+      "publishedOn": "",
+      "eventStart": "",
+      "eventEnd": "",
+      "concertId": "",
       "tag": "award",
       "badge": {
         "ja": "受賞",
@@ -2477,6 +2701,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2023.3.24",
+      "id": "news-11",
+      "publishedOn": "",
+      "eventStart": "",
+      "eventEnd": "",
+      "concertId": "",
       "tag": "award",
       "badge": {
         "ja": "受賞",
@@ -2495,6 +2724,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2023.2.3",
+      "id": "news-12",
+      "publishedOn": "",
+      "eventStart": "",
+      "eventEnd": "",
+      "concertId": "",
       "tag": "premiere",
       "badge": {
         "ja": "初演",
@@ -2513,6 +2747,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2023.1.19",
+      "id": "news-13",
+      "publishedOn": "",
+      "eventStart": "",
+      "eventEnd": "",
+      "concertId": "",
       "tag": "premiere",
       "badge": {
         "ja": "初演",
@@ -2531,6 +2770,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2022.11.17",
+      "id": "news-14",
+      "publishedOn": "",
+      "eventStart": "",
+      "eventEnd": "",
+      "concertId": "",
       "tag": "premiere",
       "badge": {
         "ja": "初演",
@@ -2549,6 +2793,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2022.8.19",
+      "id": "news-15",
+      "publishedOn": "",
+      "eventStart": "",
+      "eventEnd": "",
+      "concertId": "",
       "tag": "award",
       "badge": {
         "ja": "受賞",
@@ -2567,6 +2816,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2022.5.6 / 2022.5.17",
+      "id": "news-16",
+      "publishedOn": "",
+      "eventStart": "",
+      "eventEnd": "",
+      "concertId": "",
       "tag": "premiere",
       "badge": {
         "ja": "初演",
@@ -2585,6 +2839,11 @@ window.SITE_DATA = {
     },
     {
       "date": "2021.12.20",
+      "id": "news-17",
+      "publishedOn": "",
+      "eventStart": "",
+      "eventEnd": "",
+      "concertId": "",
       "tag": "premiere",
       "badge": {
         "ja": "初演",
@@ -2604,6 +2863,16 @@ window.SITE_DATA = {
   ],
   "concerts": [
     {
+      "id": "concert-2027-moji-kotoba-oto",
+      "status": "scheduled",
+      "start": "2027-03-20",
+      "end": "2027-03-22",
+      "workIds": [],
+      "performers": {
+        "ja": "",
+        "en": ""
+      },
+      "linkUrl": "",
       "date": {
         "en": "2027 Mar 20–22",
         "ja": "2027年3月20日(土)〜22日(月・祝)"
@@ -2622,6 +2891,16 @@ window.SITE_DATA = {
       }
     },
     {
+      "id": "concert-2028-joint-project",
+      "status": "scheduled",
+      "start": "2028-03",
+      "end": "",
+      "workIds": [],
+      "performers": {
+        "ja": "",
+        "en": ""
+      },
+      "linkUrl": "",
       "date": {
         "en": "2028 Mar (TBA)",
         "ja": "2028年3月頃"
